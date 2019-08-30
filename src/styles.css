@@ -1,0 +1,32 @@
+.App {
+	text-align: center;
+}
+
+.App.dark {
+	background: #000;
+	color: #fff;
+	transition: 0.3s all;
+}
+
+.App.light {
+	background: #fff;
+	color: #000;
+	transition: 0.3s all;
+}
+
+.toggle-text { 
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+.toggle-button { 
+    border-radius: 0px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
